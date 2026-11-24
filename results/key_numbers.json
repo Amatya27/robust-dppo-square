@@ -1,0 +1,539 @@
+{
+ "pooled": {
+  "dppo|friction_x0.5": {
+   "k": 148,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.8,
+    0.68
+   ]
+  },
+  "dppo|friction_x2.0": {
+   "k": 142,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.7,
+    0.72
+   ]
+  },
+  "dppo|mass_x0.5": {
+   "k": 146,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.73,
+    0.73
+   ]
+  },
+  "dppo|mass_x2.0": {
+   "k": 142,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.69,
+    0.73
+   ]
+  },
+  "dppo|noise_0.02": {
+   "k": 142,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.72,
+    0.7
+   ]
+  },
+  "dppo|noise_0.05": {
+   "k": 62,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.31,
+    0.31
+   ]
+  },
+  "dppo|noise_0.1": {
+   "k": 8,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.03,
+    0.05
+   ]
+  },
+  "dppo|nominal": {
+   "k": 162,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.75,
+    0.87
+   ]
+  },
+  "dppo|shift_2cm": {
+   "k": 126,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.61,
+    0.65
+   ]
+  },
+  "dppo|shift_4cm": {
+   "k": 87,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.41,
+    0.46
+   ]
+  },
+  "dppo|shift_6cm": {
+   "k": 50,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.22,
+    0.28
+   ]
+  },
+  "pretrained|friction_x0.5": {
+   "k": 32,
+   "n": 100,
+   "seeds": [
+    ""
+   ],
+   "rates": [
+    0.32
+   ]
+  },
+  "pretrained|friction_x2.0": {
+   "k": 27,
+   "n": 100,
+   "seeds": [
+    ""
+   ],
+   "rates": [
+    0.27
+   ]
+  },
+  "pretrained|mass_x0.5": {
+   "k": 35,
+   "n": 100,
+   "seeds": [
+    ""
+   ],
+   "rates": [
+    0.35
+   ]
+  },
+  "pretrained|mass_x2.0": {
+   "k": 37,
+   "n": 100,
+   "seeds": [
+    ""
+   ],
+   "rates": [
+    0.37
+   ]
+  },
+  "pretrained|noise_0.02": {
+   "k": 37,
+   "n": 100,
+   "seeds": [
+    ""
+   ],
+   "rates": [
+    0.37
+   ]
+  },
+  "pretrained|noise_0.05": {
+   "k": 18,
+   "n": 100,
+   "seeds": [
+    ""
+   ],
+   "rates": [
+    0.18
+   ]
+  },
+  "pretrained|noise_0.1": {
+   "k": 1,
+   "n": 100,
+   "seeds": [
+    ""
+   ],
+   "rates": [
+    0.01
+   ]
+  },
+  "pretrained|nominal": {
+   "k": 40,
+   "n": 100,
+   "seeds": [
+    ""
+   ],
+   "rates": [
+    0.4
+   ]
+  },
+  "pretrained|shift_2cm": {
+   "k": 27,
+   "n": 100,
+   "seeds": [
+    ""
+   ],
+   "rates": [
+    0.27
+   ]
+  },
+  "pretrained|shift_4cm": {
+   "k": 13,
+   "n": 100,
+   "seeds": [
+    ""
+   ],
+   "rates": [
+    0.13
+   ]
+  },
+  "pretrained|shift_6cm": {
+   "k": 8,
+   "n": 100,
+   "seeds": [
+    ""
+   ],
+   "rates": [
+    0.08
+   ]
+  },
+  "robust|friction_x0.5": {
+   "k": 117,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.53,
+    0.64
+   ]
+  },
+  "robust|friction_x2.0": {
+   "k": 115,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.53,
+    0.62
+   ]
+  },
+  "robust|mass_x0.5": {
+   "k": 120,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.55,
+    0.65
+   ]
+  },
+  "robust|mass_x2.0": {
+   "k": 118,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.56,
+    0.62
+   ]
+  },
+  "robust|noise_0.02": {
+   "k": 127,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.64,
+    0.63
+   ]
+  },
+  "robust|noise_0.05": {
+   "k": 58,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.27,
+    0.31
+   ]
+  },
+  "robust|noise_0.1": {
+   "k": 7,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.05,
+    0.02
+   ]
+  },
+  "robust|nominal": {
+   "k": 126,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.6,
+    0.66
+   ]
+  },
+  "robust|shift_2cm": {
+   "k": 99,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.48,
+    0.51
+   ]
+  },
+  "robust|shift_4cm": {
+   "k": 56,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.23,
+    0.33
+   ]
+  },
+  "robust|shift_6cm": {
+   "k": 33,
+   "n": 200,
+   "seeds": [
+    42,
+    43
+   ],
+   "rates": [
+    0.18,
+    0.15
+   ]
+  }
+ },
+ "train_runs": {
+  "dppo_s42": {
+   "done": true,
+   "seconds": 17653.399694919586,
+   "evals": [
+    [
+     0,
+     0,
+     0.435
+    ],
+    [
+     10,
+     720000,
+     0.525
+    ],
+    [
+     20,
+     1440000,
+     0.7
+    ],
+    [
+     30,
+     2160000,
+     0.78
+    ],
+    [
+     40,
+     2880000,
+     0.845
+    ]
+   ],
+   "last_itr": 40,
+   "env_steps": 2880000
+  },
+  "dppo_s43": {
+   "done": true,
+   "seconds": 17444.42908668518,
+   "evals": [
+    [
+     0,
+     0,
+     0.36
+    ],
+    [
+     10,
+     720000,
+     0.545
+    ],
+    [
+     20,
+     1440000,
+     0.665
+    ],
+    [
+     30,
+     2160000,
+     0.7
+    ],
+    [
+     40,
+     2880000,
+     0.8
+    ]
+   ],
+   "last_itr": 40,
+   "env_steps": 2880000
+  },
+  "robust_s42": {
+   "done": true,
+   "seconds": 17536.326345443726,
+   "evals": [
+    [
+     0,
+     0,
+     0.205
+    ],
+    [
+     10,
+     720000,
+     0.32
+    ],
+    [
+     20,
+     1440000,
+     0.36
+    ],
+    [
+     30,
+     2160000,
+     0.465
+    ],
+    [
+     40,
+     2880000,
+     0.49
+    ]
+   ],
+   "last_itr": 40,
+   "env_steps": 2880000
+  },
+  "robust_s43": {
+   "done": true,
+   "seconds": 17434.688018798828,
+   "evals": [
+    [
+     0,
+     0,
+     0.24
+    ],
+    [
+     10,
+     720000,
+     0.35
+    ],
+    [
+     20,
+     1440000,
+     0.425
+    ],
+    [
+     30,
+     2160000,
+     0.51
+    ],
+    [
+     40,
+     2880000,
+     0.52
+    ]
+   ],
+   "last_itr": 40,
+   "env_steps": 2880000
+  }
+ },
+ "facts": [
+  "DPPO vs pretrained, nominal: +41 percentage points (+/- 11, 95%).",
+  "Pretrained diffusion policy: mean success over 10 perturbed conditions 24%; worst case 1% (Obs. noise std 0.1).",
+  "DPPO: mean success over 10 perturbed conditions 53%; worst case 4% (Obs. noise std 0.1).",
+  "Robust DPPO: mean success over 10 perturbed conditions 42%; worst case 4% (Obs. noise std 0.1).",
+  "DPPO - pretrained under Nut shifted 2 cm: +36 pp (+/- 11).",
+  "DPPO - pretrained under Nut shifted 4 cm: +30 pp (+/- 10).",
+  "DPPO - pretrained under Nut shifted 6 cm: +17 pp (+/- 8).",
+  "DPPO - pretrained under Obs. noise std 0.02: +34 pp (+/- 11).",
+  "DPPO - pretrained under Obs. noise std 0.05: +13 pp (+/- 10).",
+  "DPPO - pretrained under Obs. noise std 0.1: +3 pp (+/- 3).",
+  "DPPO - pretrained under Friction x0.5: +42 pp (+/- 11).",
+  "DPPO - pretrained under Friction x2.0: +44 pp (+/- 11).",
+  "DPPO - pretrained under Nut mass x0.5: +38 pp (+/- 11).",
+  "DPPO - pretrained under Nut mass x2.0: +34 pp (+/- 11).",
+  "Robust DPPO - DPPO under Nominal: -18 pp (+/- 9).",
+  "Robust DPPO - DPPO under Nut shifted 2 cm: -14 pp (+/- 10).",
+  "Robust DPPO - DPPO under Nut shifted 4 cm: -15 pp (+/- 9).",
+  "Robust DPPO - DPPO under Nut shifted 6 cm: -8 pp (+/- 8).",
+  "Robust DPPO - DPPO under Obs. noise std 0.02: -7 pp (+/- 9).",
+  "Robust DPPO - DPPO under Obs. noise std 0.05: -2 pp (+/- 9).",
+  "Robust DPPO - DPPO under Obs. noise std 0.1: -0 pp (+/- 4).",
+  "Robust DPPO - DPPO under Friction x0.5: -16 pp (+/- 9).",
+  "Robust DPPO - DPPO under Friction x2.0: -14 pp (+/- 9).",
+  "Robust DPPO - DPPO under Nut mass x0.5: -13 pp (+/- 9).",
+  "Robust DPPO - DPPO under Nut mass x2.0: -12 pp (+/- 9)."
+ ]
+}

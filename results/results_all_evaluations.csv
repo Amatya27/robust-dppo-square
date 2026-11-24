@@ -1,0 +1,57 @@
+model,method,seed,condition,type,level,episodes,successes,success_rate,ci95_low,ci95_high,source
+dppo_s42,dppo,42,friction_x0.5,Friction,0.5000,100,80,0.8000,0.7112,0.8666,runs/eval/dppo_s42/friction_x0.5/result.npz
+dppo_s42,dppo,42,friction_x2.0,Friction,2.0000,100,70,0.7000,0.6041,0.7811,runs/eval/dppo_s42/friction_x2.0/result.npz
+dppo_s42,dppo,42,mass_x0.5,Nut mass,0.5000,100,73,0.7300,0.6357,0.8073,runs/eval/dppo_s42/mass_x0.5/result.npz
+dppo_s42,dppo,42,mass_x2.0,Nut mass,2.0000,100,69,0.6900,0.5937,0.7722,runs/eval/dppo_s42/mass_x2.0/result.npz
+dppo_s42,dppo,42,noise_0.02,Observation noise,0.0200,100,72,0.7200,0.6251,0.7986,runs/eval/dppo_s42/noise_0.02/result.npz
+dppo_s42,dppo,42,noise_0.05,Observation noise,0.0500,100,31,0.3100,0.2278,0.4063,runs/eval/dppo_s42/noise_0.05/result.npz
+dppo_s42,dppo,42,noise_0.1,Observation noise,0.1000,100,3,0.0300,0.0103,0.0845,runs/eval/dppo_s42/noise_0.1/result.npz
+dppo_s42,dppo,42,nominal,Nominal,0,100,75,0.7500,0.6570,0.8245,runs/eval/dppo_s42/nominal/result.npz
+dppo_s42,dppo,42,shift_2cm,Object shift,2,100,61,0.6100,0.5120,0.6998,runs/eval/dppo_s42/shift_2cm/result.npz
+dppo_s42,dppo,42,shift_4cm,Object shift,4,100,41,0.4100,0.3187,0.5080,runs/eval/dppo_s42/shift_4cm/result.npz
+dppo_s42,dppo,42,shift_6cm,Object shift,6,100,22,0.2200,0.1500,0.3107,runs/eval/dppo_s42/shift_6cm/result.npz
+dppo_s43,dppo,43,friction_x0.5,Friction,0.5000,100,68,0.6800,0.5834,0.7633,runs/eval/dppo_s43/friction_x0.5/result.npz
+dppo_s43,dppo,43,friction_x2.0,Friction,2.0000,100,72,0.7200,0.6251,0.7986,runs/eval/dppo_s43/friction_x2.0/result.npz
+dppo_s43,dppo,43,mass_x0.5,Nut mass,0.5000,100,73,0.7300,0.6357,0.8073,runs/eval/dppo_s43/mass_x0.5/result.npz
+dppo_s43,dppo,43,mass_x2.0,Nut mass,2.0000,100,73,0.7300,0.6357,0.8073,runs/eval/dppo_s43/mass_x2.0/result.npz
+dppo_s43,dppo,43,noise_0.02,Observation noise,0.0200,100,70,0.7000,0.6041,0.7811,runs/eval/dppo_s43/noise_0.02/result.npz
+dppo_s43,dppo,43,noise_0.05,Observation noise,0.0500,100,31,0.3100,0.2278,0.4063,runs/eval/dppo_s43/noise_0.05/result.npz
+dppo_s43,dppo,43,noise_0.1,Observation noise,0.1000,100,5,0.0500,0.0215,0.1118,runs/eval/dppo_s43/noise_0.1/result.npz
+dppo_s43,dppo,43,nominal,Nominal,0,100,87,0.8700,0.7902,0.9224,runs/eval/dppo_s43/nominal/result.npz
+dppo_s43,dppo,43,shift_2cm,Object shift,2,100,65,0.6500,0.5525,0.7364,runs/eval/dppo_s43/shift_2cm/result.npz
+dppo_s43,dppo,43,shift_4cm,Object shift,4,100,46,0.4600,0.3656,0.5574,runs/eval/dppo_s43/shift_4cm/result.npz
+dppo_s43,dppo,43,shift_6cm,Object shift,6,100,28,0.2800,0.2014,0.3749,runs/eval/dppo_s43/shift_6cm/result.npz
+pretrained,pretrained,,friction_x0.5,Friction,0.5000,100,32,0.3200,0.2367,0.4166,runs/eval/pretrained/friction_x0.5/result.npz
+pretrained,pretrained,,friction_x2.0,Friction,2.0000,100,27,0.2700,0.1927,0.3643,runs/eval/pretrained/friction_x2.0/result.npz
+pretrained,pretrained,,mass_x0.5,Nut mass,0.5000,100,35,0.3500,0.2636,0.4475,runs/eval/pretrained/mass_x0.5/result.npz
+pretrained,pretrained,,mass_x2.0,Nut mass,2.0000,100,37,0.3700,0.2818,0.4678,runs/eval/pretrained/mass_x2.0/result.npz
+pretrained,pretrained,,noise_0.02,Observation noise,0.0200,100,37,0.3700,0.2818,0.4678,runs/eval/pretrained/noise_0.02/result.npz
+pretrained,pretrained,,noise_0.05,Observation noise,0.0500,100,18,0.1800,0.1170,0.2667,runs/eval/pretrained/noise_0.05/result.npz
+pretrained,pretrained,,noise_0.1,Observation noise,0.1000,100,1,0.0100,0.0018,0.0545,runs/eval/pretrained/noise_0.1/result.npz
+pretrained,pretrained,,nominal,Nominal,0,100,40,0.4000,0.3094,0.4980,runs/eval/pretrained/nominal/result.npz
+pretrained,pretrained,,shift_2cm,Object shift,2,100,27,0.2700,0.1927,0.3643,runs/eval/pretrained/shift_2cm/result.npz
+pretrained,pretrained,,shift_4cm,Object shift,4,100,13,0.1300,0.0776,0.2098,runs/eval/pretrained/shift_4cm/result.npz
+pretrained,pretrained,,shift_6cm,Object shift,6,100,8,0.0800,0.0411,0.1500,runs/eval/pretrained/shift_6cm/result.npz
+pretrained_raw,pretrained_raw,,nominal,Nominal,0,100,37,0.3700,0.2818,0.4678,runs/eval/pretrained_raw/nominal/result.npz
+robust_s42,robust,42,friction_x0.5,Friction,0.5000,100,53,0.5300,0.4329,0.6249,runs/eval/robust_s42/friction_x0.5/result.npz
+robust_s42,robust,42,friction_x2.0,Friction,2.0000,100,53,0.5300,0.4329,0.6249,runs/eval/robust_s42/friction_x2.0/result.npz
+robust_s42,robust,42,mass_x0.5,Nut mass,0.5000,100,55,0.5500,0.4524,0.6439,runs/eval/robust_s42/mass_x0.5/result.npz
+robust_s42,robust,42,mass_x2.0,Nut mass,2.0000,100,56,0.5600,0.4623,0.6533,runs/eval/robust_s42/mass_x2.0/result.npz
+robust_s42,robust,42,noise_0.02,Observation noise,0.0200,100,64,0.6400,0.5424,0.7273,runs/eval/robust_s42/noise_0.02/result.npz
+robust_s42,robust,42,noise_0.05,Observation noise,0.0500,100,27,0.2700,0.1927,0.3643,runs/eval/robust_s42/noise_0.05/result.npz
+robust_s42,robust,42,noise_0.1,Observation noise,0.1000,100,5,0.0500,0.0215,0.1118,runs/eval/robust_s42/noise_0.1/result.npz
+robust_s42,robust,42,nominal,Nominal,0,100,60,0.6000,0.5020,0.6906,runs/eval/robust_s42/nominal/result.npz
+robust_s42,robust,42,shift_2cm,Object shift,2,100,48,0.4800,0.3846,0.5768,runs/eval/robust_s42/shift_2cm/result.npz
+robust_s42,robust,42,shift_4cm,Object shift,4,100,23,0.2300,0.1584,0.3215,runs/eval/robust_s42/shift_4cm/result.npz
+robust_s42,robust,42,shift_6cm,Object shift,6,100,18,0.1800,0.1170,0.2667,runs/eval/robust_s42/shift_6cm/result.npz
+robust_s43,robust,43,friction_x0.5,Friction,0.5000,100,64,0.6400,0.5424,0.7273,runs/eval/robust_s43/friction_x0.5/result.npz
+robust_s43,robust,43,friction_x2.0,Friction,2.0000,100,62,0.6200,0.5221,0.7090,runs/eval/robust_s43/friction_x2.0/result.npz
+robust_s43,robust,43,mass_x0.5,Nut mass,0.5000,100,65,0.6500,0.5525,0.7364,runs/eval/robust_s43/mass_x0.5/result.npz
+robust_s43,robust,43,mass_x2.0,Nut mass,2.0000,100,62,0.6200,0.5221,0.7090,runs/eval/robust_s43/mass_x2.0/result.npz
+robust_s43,robust,43,noise_0.02,Observation noise,0.0200,100,63,0.6300,0.5322,0.7182,runs/eval/robust_s43/noise_0.02/result.npz
+robust_s43,robust,43,noise_0.05,Observation noise,0.0500,100,31,0.3100,0.2278,0.4063,runs/eval/robust_s43/noise_0.05/result.npz
+robust_s43,robust,43,noise_0.1,Observation noise,0.1000,100,2,0.0200,0.0055,0.0700,runs/eval/robust_s43/noise_0.1/result.npz
+robust_s43,robust,43,nominal,Nominal,0,100,66,0.6600,0.5628,0.7454,runs/eval/robust_s43/nominal/result.npz
+robust_s43,robust,43,shift_2cm,Object shift,2,100,51,0.5100,0.4135,0.6058,runs/eval/robust_s43/shift_2cm/result.npz
+robust_s43,robust,43,shift_4cm,Object shift,4,100,33,0.3300,0.2456,0.4269,runs/eval/robust_s43/shift_4cm/result.npz
+robust_s43,robust,43,shift_6cm,Object shift,6,100,15,0.1500,0.0931,0.2328,runs/eval/robust_s43/shift_6cm/result.npz
