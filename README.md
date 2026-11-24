@@ -1,3 +1,18 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="media/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="media/banner-light.svg">
+    <img src="media/banner-light.svg" width="100%" alt="Robust DPPO on Robomimic Square">
+  </picture>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
+  <img src="https://img.shields.io/badge/Robomimic-6E56CF?style=flat-square" alt="Robomimic">
+  <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white" alt="Google Colab">
+  <img src="https://img.shields.io/badge/License:%20MIT-8b949e?style=flat-square" alt="License: MIT">
+</p>
+
 # Does RL fine-tuning make a robot policy robust?
 
 Fine-tuning a diffusion policy with **DPPO** on the Robomimic *Square* task, then stress-testing it under 10 perturbations: moving the nut, adding sensor noise, and changing friction and mass.
